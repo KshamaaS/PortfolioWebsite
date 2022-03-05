@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 10px;
+}
+.ham{
+    background-color: black;
+}
+.cross{
+    background-color: black;
+    margin-left: 170px;
+}
+.sidebarGo{
+    transform: translate(-433px,0px);
+    position: absolute;
+    background-color: black;
+}
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /*background-color: yellow; */
+    width: 90vw;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: rgb(218, 49, 240); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 100px;
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.about{
+    font-size: 27px;
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn{
+    margin: 34px;
+}
+.btn button{
+    padding: 12px;
+    border-radius: 18px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 9px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: white;
+    color: black;  
+}
+.devPic img{
+    height: 54vh;
+}
+
+/*Contact Page code:*/
+
+.contactform{
+    height: 100vh;
+    padding-top: 144px;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.contactform h2{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    padding: 5px;
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    color: white;
+}
+#form-check{
+    flex-direction: row;
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+#form-check input{
+    width: 27px;
+    margin-top: 3px;
+}
+#emailHelp{
+    color: midnightblue;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.buttons{
+    margin-top: -30px;
+    width: 150px;
+    margin-left: -30px;
+}
+.buttons button{
+    padding: 12px;
+    border-radius: 18px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 9px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;  
+}
+
+/*Social Media Page*/
+
+.social h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.social h2{
+    margin-top: 50px;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+.social h3{
+    font-family: 'Quicksand', sans-serif;
+    color: midnightblue; 
+    font-size: 18px; 
+    margin-top: 20px;
+    font-weight: 550;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.insta{
+    margin-top: 20px;
+    color-scheme: purple;
+    font-size: 30px;
+}
+.github{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/*Introduction page*/
+
+.introContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.information{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(21, 21, 126);
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.infotext{
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+.moreinfo{
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.info{
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.tit{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(21, 21, 126);
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.html{
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.js{
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.css{
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.python{
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.java{
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+.design{
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large; 
+}
+
+@media (max-width: 890px) {   
+    .devPic{
+        display: none;
+    }
+    .sidebar{
+        position: absolute;
+    }
+}
